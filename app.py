@@ -22,7 +22,7 @@ for i in range(leng):
 
 st.title("Disease Prediction System")
 st.markdown("---")
-opt=st.multiselect("enter the Symptoms you have",options=re)
+opt=st.multiselect("Enter the Symptoms you have",options=re)
 btn=st.button("Predict")
 if btn:
     li = []
